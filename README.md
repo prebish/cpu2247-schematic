@@ -90,12 +90,15 @@ Open the `.circ` file in Logism to view the components of the CPU.
 ### Loading Programs
 
 1. Right-Click on the **ROM Component**.  
+  
     ![ROM Component Image](./imgs/pointing_to_rom.png)  
   
 2. Click **Load Image**.  
+  
     ![Load Image Image](./imgs/click_load_image.png)
 
 3. Navigate to the `logism-cpu-schematic/roms/` directory and select a `.rom` file.  
+  
     Notice the lines in the ROM aren't filled with all 0's anymore? (Except for `00_halt.rom`)
 
 ### Running Programs
