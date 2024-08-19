@@ -94,7 +94,7 @@ Open the `.circ` file in Logism to view the components of the CPU.
 2. Click **Load Image**.  
     ![Load Image Image](./imgs/click_load_image.png)
 
-3. Navigate to the `logism-cpu-schematic/roms/` directory and select a `.rom` file.
+3. Navigate to `logism-cpu-schematic/roms/` and select a `.rom` file.
 
 ### Running Programs
 To run the program you loaded, you must start the clock cycle.
@@ -102,7 +102,7 @@ To run the program you loaded, you must start the clock cycle.
 1. Go to **Simulate** at the top of Logism.  
 2. Click **Ticks Enabled**.  
     You can select this again to make the clock stop.
-3. Go to **Simulate > Tick Frequency**
+3. Go to **Simulate > Tick Frequency**  
     Now you can select any frequency (greater than 4Hz)
 
 **TIP:** you can clear everything by selecting **Simulate > Reset Simulation**
