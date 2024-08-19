@@ -1,0 +1,12 @@
+v2.0 raw
+# to load this file into Logisim:
+# 1. use the poke tool and right-click the ROM component
+# 2. select Load Image menu option
+# 3. choose this file
+040100	# (PC=  0) li    r1, 0
+040206	# (PC=  1) li    r2, 6
+348804	# (PC=  2) beq   r1, r2, _end
+024000	# (PC=  3) put   r0, r1
+1C0901	# (PC=  4) adi   r1, r1, 1
+2A0002	# (PC=  5) j     _top
+000000	# (PC=  6) hlt   
