@@ -79,7 +79,7 @@ Follow the instructions based on your OS:
 
 
 ## Usage
-If you're already familiar with Logism, you can continue to [Loading Images](#loading-images)
+If you're already familiar with Logism, you can continue to [Loading Programs](#loading-programs)
 
 ### View the CPU
 Open the `.circ` file in Logism to view the components of the CPU.  
