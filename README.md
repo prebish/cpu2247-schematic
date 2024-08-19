@@ -90,7 +90,7 @@ Open the `.circ` file in Logism to view the components of the CPU.
 1. Go to **File > Open** in Logism, of course.
 2. Navigate to the `./logism-cpu-schematic/` directory and select `cpu2247.circ`.
 
-### Loading Images
+### Loading Programs
 
 1. Right-Click on the **ROM Component**.  
 ![ROM Component Image](./imgs/pointing_to_rom.png)  
