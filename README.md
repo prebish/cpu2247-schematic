@@ -88,29 +88,24 @@ Open the `.circ` file in Logism to view the components of the CPU.
 2. Navigate to the `./logism-cpu-schematic/` directory and select `cpu2247.circ`.
 
 ### Loading Programs
-
 1. Right-Click on the **ROM Component**.  
-  
     ![ROM Component Image](./imgs/pointing_to_rom.png)  
   
 2. Click **Load Image**.  
-  
     ![Load Image Image](./imgs/click_load_image.png)
 
-3. Navigate to the `logism-cpu-schematic/roms/` directory and select a `.rom` file.  
-  
-    Notice the lines in the ROM aren't filled with all 0's anymore? (Except for `00_halt.rom`)
+3. Navigate to the `logism-cpu-schematic/roms/` directory and select a `.rom` file.
 
 ### Running Programs
 To run the program you loaded, you must start the clock cycle.
 
 1. Go to **Simulate** at the top of Logism.  
 2. Click **Ticks Enabled**.  
-You can select this again to make the clock stop.
-3. Go to **Simulate > Tick Frequency** and Select any frequency greater than 4Hz
+    You can select this again to make the clock stop.
+3. Go to **Simulate > Tick Frequency**
+    Now you can select any frequency (greater than 4Hz)
 
 **TIP:** you can clear everything by selecting **Simulate > Reset Simulation**
 
 ## License
-
 This project is licensed under the **MIT License** - see the `LICENSE` file for details.
