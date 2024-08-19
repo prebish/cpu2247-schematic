@@ -11,7 +11,8 @@ A small single-cycle CPU capable of running real programs (.rom) and outputting 
         - [MacOS/Linux](#macoslinux)
 - [Usage](#usage)
     - [View the CPU](#view-the-cpu)
-    - [Loading Images](#loading-images)
+    - [Loading Programs](#loading-programs)
+    - [Running Programs](#running-programs)
 - [License](#license)
 
 ## Description
