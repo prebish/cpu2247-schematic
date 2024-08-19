@@ -62,7 +62,7 @@ git clone https://github.com/prebish/logism-cpu-schematic.git
   
 The origin repository for Logism can be found [here](https://github.com/logisim-evolution/logisim-evolution). However, for this project I will be using a fork created by [Jarrett Billingsley](https://github.com/JarrettBillingsley).  
 
-Please follow the instructions below based on your Operating System.
+Follow the instructions based on your OS:
 
 #### **Windows**
 
