@@ -17,13 +17,9 @@ A small single-cycle CPU capable of running real programs (.rom) and outputting 
 
 ## Description
 
-![project image](./image.png)
+This project was made possible by Logisim. An open-source educational software tool designed for creating and simulating digital logic circuits. It provides a visual interface where users can build and test circuits using basic logic gates, multiplexers, registers, and other digital components.
 
-As a disclaimer, you will *have* to install Logism in order to run this application.  
-  
-Logisim is an open-source educational software tool designed for creating and simulating digital logic circuits. It provides a visual interface where users can build and test circuits using basic logic gates, multiplexers, registers, and other digital components.
-
-This project includes a `cpu2247.circ` file containing the schematics for a single-cycle CPU. It was designed using the Logism software, and has a 8-bit architecture (some can be 16) with some similarities to MIPS. This CPU can actually run real programs and produce output. This repository contains a folder full of roms for you to experiment with. 
+Included in this repository is a `cpu2247.circ` file containing the schematics for a single-cycle CPU. It was designed to have a 8-bit architecture (some can be 16) with some similarities in its ISA to MIPS. This CPU can actually run real programs and produce output. This repository contains a folder full of roms for you to experiment with. 
 
 Refer to the project structure below:   
 
@@ -57,14 +53,14 @@ root/.
 
 ### 1. Clone the Repository
 
-If you haven't already, you will have to clone the repository to your machine.
+If you haven't already, clone the repository:
 ```bash
 git clone https://github.com/prebish/logism-cpu-schematic.git
 ```
 
 ### 2. Install Logism
   
-The origin repository can be found [here](https://github.com/logisim-evolution/logisim-evolution). However, for this project I will be using a fork created by [Jarrett Billingsley](https://github.com/JarrettBillingsley).  
+The origin repository for Logism can be found [here](https://github.com/logisim-evolution/logisim-evolution). However, for this project I will be using a fork created by [Jarrett Billingsley](https://github.com/JarrettBillingsley).  
 
 Please follow the instructions below based on your Operating System.
 
@@ -100,8 +96,7 @@ Open the `.circ` file in Logism to view the components of the CPU.
 ![Load Image Image](./imgs/click_load_image.png)
 
 3. Navigate to the `logism-cpu-schematic/roms/` directory and select a `.rom` file.  
-
-Notice the lines in the ROM aren't filled with all 0's anymore? (Except for `00_halt.rom`)
+    Notice the lines in the ROM aren't filled with all 0's anymore? (Except for `00_halt.rom`)
 
 ### Running Programs
 To run the program you loaded, you must start the clock cycle.
