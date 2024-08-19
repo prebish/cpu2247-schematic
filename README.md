@@ -55,7 +55,7 @@ root/.
 
 If you haven't already, clone the repository:
 ```bash
-git clone https://github.com/prebish/logism-cpu-schematic.git
+git clone https://github.com/prebish/cpu2247-schematic.git
 ```
 
 ### 2. Install Logism
