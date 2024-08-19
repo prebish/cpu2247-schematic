@@ -1,2 +1,2 @@
 # Logism CPU Schematic
-A custom-designed CPU with a RISC ISA, developed using Logisim, that demonstrates a tailored approach to processor architecture and digital logic.
+A small single-cycle CPU capable of running real programs (.rom) and outputting numbers. Designed with Logism and implemented with a cpu2247 ISA which is similar to MIPS.
